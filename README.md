@@ -3,8 +3,9 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : ADAM
+- PRÉNOM : Juline
+- GROUPE : A1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/1h15tOKir6CSWmcUVIc0Pu/Maquettes-projet-individuel-%E2%80%94-Juline-ADAM?node-id=3702-128&t=OoHNXpGV657DFigi-1
+
