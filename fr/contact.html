@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VirtualSpark</title>
+    <link rel="icon" href="/assets/icones/icone-logo.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="/fr/index.html">
+                <img class="header__logo-img" src="/assets/icones/icone-logo.svg" alt="VirtualSpark Logo">
+            </a>
+        </div>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/objet.html">L'objet - Les casques de réalité virtuelle</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/frise.html">La frise chronologique des objets</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/film.html">Le film - Ready Player One</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/galerie.html">La galerie de films</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/livre.html">Le livre - The Age of Em</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/musique.html">La musique - Virtual Self, Ghost Voices</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/realisateur.html">Le réalisateur - Steven Spielberg</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact">
+        <h1 class="contact__title">Me contacter</h1>
+        <p class="contact__description">
+            Si vous avez des questions sur la maquette ou souhaitez me parler de certains points d'amélioration,
+            n'hésitez pas à me contacter via le formulaire ci-dessous.
+        </p>
+
+        <section class="contact__section">
+            <form class="contact__form">
+                <div class="contact__form-group">
+                    <label for="nom" class="contact__form-label">Nom</label>
+                    <input type="text" id="nom" name="nom" class="contact__form-input" placeholder="Écrire ici...">
+                </div>
+                <div class="contact__form-group">
+                    <label for="prenom" class="contact__form-label">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" class="contact__form-input"
+                        placeholder="Écrire ici...">
+                </div>
+                <div class="contact__form-group">
+                    <label for="email" class="contact__form-label">Adresse mail</label>
+                    <input type="text" id="email" name="email" class="contact__form-input" placeholder="Écrire ici...">
+                </div>
+                <div class="contact__form-group">
+                    <label for="message" class="contact__form-label">Message</label>
+                    <textarea id="message" name="message" class="contact__form-input" rows="5"
+                        placeholder="Écrire ici...." required></textarea>
+                </div>
+            </form>
+        </section>
+
+        <div class="button_bis">
+            <img src="/assets/icones/icone-bouton-violet.svg" alt="Soumettre le formulaire">
+        </div>
+        <div class="button">
+            <a class="hero__button" href="/fr/apropos.html">
+                <img src="/assets/icones/icone-bouton-plussurmoi.svg" alt="En apprendre plus sur moi ">
+            </a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="/assets/icones/icone-logo.svg" alt="VirtualSpark Logo">
+        </div>
+        <div class="footer__title">
+            <p>VirtualSpark</p>
+        </div>
+        <div class="footer__credits">
+            <p>ADAM Juline, A1</p>
+            <p>MENTIONS LÉGALES</p>
+            <p>
+                Projet réalisé en 2024 dans le cadre d’un exercice pédagogique au département <a
+                    href="https://blogdummi.fr/" class="hero__link">MMI de Montbéliard</a>.
+            </p>
+        </div>
+        <nav class="footer__nav">
+            <a href="/fr/contact.html" class="footer__link">CONTACT</a>
+            <a href="/fr/glossaire.html" class="footer__link">GLOSSAIRE</a>
+            <a href="/fr/apropos.html" class="footer__link">À PROPOS</a>
+            <a href="/fr/autresprojets.html" class="footer__link">AUTRES PROJETS</a>
+            <a href="mailto:juline.adam@edu.univ-fcomte.fr" class="footer__link">juline.adam@edu.univ-fcomte.fr</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
