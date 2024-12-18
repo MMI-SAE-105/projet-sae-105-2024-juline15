@@ -1,0 +1,113 @@
+body {
+    font-family: var(--Raleway);
+    margin: 0;
+    padding: 0;
+    background-color: #0D2A53;
+    color: #ffffff;
+}
+
+h1,
+h2 {
+    font-family: var(--Orbitron);
+    font-size: 3em;
+    margin: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero__image img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero__title {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.hero__subtitle {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.hero__spark {
+    width: 50px;
+    margin-top: 20px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro__title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.intro__image img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.intro__description {
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #1a2a3a;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.card__image img {
+    border-radius: 10px;
+}
+
+.card__title {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.card__description {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.card__link {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.card__button {
+    width: 30px;
+}
