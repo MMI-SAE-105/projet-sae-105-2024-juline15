@@ -1,7 +1,5 @@
-
-
 /* Vendors */
-
+@import "vendors/normalize.css";
 
 /* Utils */
 
@@ -13,4 +11,3 @@
 
 
 /* Components */
-
