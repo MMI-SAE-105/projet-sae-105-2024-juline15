@@ -3,46 +3,99 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #0a1a2a;
+    background: linear-gradient(to right, #0D2A53, #000000);
 }
 
-.header__logo img {
-    height: 40px;
+.header__logo {
+    height: 50px;
+}
+
+.header__menu {
+    visibility: hidden;
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    color: var(--black);
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    transform: translateX(100vw);
+    transition: all 0.3s ease-in-out;
+    background-color: #483D8B;
+}
+
+.header__menu[aria-hidden="false"] {
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.menu__link {
+    color: var(--blanc, #FFF);
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+.menu__item {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--black);
 }
 
 .header__menu-btn {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: none;
     border: none;
     cursor: pointer;
 }
 
-.menu-btn__bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px 0;
-    background-color: #ffffff;
+.menu-btn__bar,
+.menu-btn__bar::before,
+.menu-btn__bar::after {
+    content: "";
+    background: white;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    border-radius: 2px;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
 }
 
-.header__menu {
-    display: none;
+.menu-btn__bar::before {
+    top: -10px;
 }
 
-.header__menu.menu--open {
-    display: block;
+.menu-btn__bar::after {
+    top: 10px;
 }
 
-.menu__list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.header__menu-btn[aria-expanded="true"] .menu-btn__bar,
+.header__menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.header__menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(135deg);
+    background: white;
 }
 
-.menu__item {
-    margin: 10px 0;
+.header__menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.header__menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
 }
 
-.menu__link {
-    color: #ffffff;
-    text-decoration: none;
+.list-unstyled {
+    margin-top: 100px;
+    list-style-type: none;
+    padding-left: 20px;
 }
