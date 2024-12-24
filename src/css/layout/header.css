@@ -30,6 +30,19 @@
     visibility: visible;
 }
 
+.header__menu-langue {
+    text-decoration: none;
+    background: none !important;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    width: 26px;
+    height: 27px;
+    cursor: pointer;
+    margin-right: 22px;
+    margin-left: 198px;
+}
+
 .menu__link {
     color: var(--blanc, #FFF);
     text-decoration: none;
@@ -49,14 +62,17 @@
 
 .header__menu-btn {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: none;
     border: none;
     cursor: pointer;
+    order: 2;
+    margin-left: auto;
+    margin-right: 10px;
 }
 
 .menu-btn__bar,
