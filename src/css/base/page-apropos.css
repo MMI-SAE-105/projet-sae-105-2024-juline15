@@ -1,0 +1,29 @@
+.hero__image-img {
+    display: flex;
+    width: 225px;
+    height: 223px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 57px;
+    margin-left: 50px;
+    margin-bottom: 45px;
+}
+
+.hero__text {
+    color: var(--blanc, #FFF);
+    font-family: var(--Raleway);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: 0.75px;
+    text-align: left;
+}
+
+.hero__button-btn {
+    align-items: right;
+    margin-left: 130px;
+    margin-top: 62px;
+    margin-bottom: 50px;
+}

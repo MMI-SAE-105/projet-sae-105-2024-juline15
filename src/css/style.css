@@ -10,6 +10,7 @@
 /* Base */
 @import "/src/css/base/main.css";
 @import "/src/css/base/page-film.css";
+@import "/src/css/base/page-apropos.css";
 
 /* Layout */
 @import "/src/css/layout/header.css";
