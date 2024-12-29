@@ -18,9 +18,14 @@ h1 {
 }
 
 h2 {
-    font-family: var(--Orbitron);
-    font-size: 3em;
-    margin: 0;
+    color: var(--blanc, #FFF);
+    font-family: var(--Raleway);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: 1.1px;
+    text-align: left;
 }
 
 a {
@@ -35,7 +40,7 @@ img {
 
 .hero {
     text-align: center;
-    padding: 50px 20px;
+    padding: 20px;
 }
 
 .hero__img {
@@ -46,8 +51,14 @@ img {
 }
 
 .hero__title {
-    font-size: 2.5em;
-    margin: -370px 0 0 0;
+    color: var(--blanc, #FFF);
+    text-align: center;
+    font-family: var(--Orbitron);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 132%;
+    letter-spacing: 1.8px;
 }
 
 .hero__subtitle {
