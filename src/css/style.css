@@ -9,6 +9,7 @@
 
 /* Base */
 @import "/src/css/base/main.css";
+@import "/src/css/base/page-film.css";
 
 /* Layout */
 @import "/src/css/layout/header.css";
