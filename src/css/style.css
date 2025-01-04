@@ -12,6 +12,7 @@
 @import "/src/css/base/page-film.css";
 @import "/src/css/base/page-apropos.css";
 @import "/src/css/base/page-contact.css";
+@import "/src/css/base/page-galerie.css";
 
 /* Layout */
 @import "/src/css/layout/header.css";
