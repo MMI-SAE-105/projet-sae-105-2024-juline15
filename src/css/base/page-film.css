@@ -44,6 +44,16 @@
     text-align: left;
 }
 
+.hero__text {
+    color: var(--blanc, #FFF);
+    font-family: var(--Raleway);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: 1.1px;
+}
+
 .article {
     margin-top: 48px;
 }

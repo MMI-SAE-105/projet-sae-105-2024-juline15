@@ -40,7 +40,9 @@ img {
 
 .hero {
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .hero__img {
@@ -71,6 +73,16 @@ img {
     margin-top: 40px;
 }
 
+.hero__description {
+    color: var(--blanc, #FFF);
+    font-family: var(--Raleway);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: 0.55px;
+}
+
 .hero__spark {
     width: 300px;
     margin-top: 20px;
@@ -97,7 +109,7 @@ img {
 }
 
 .intro__description {
-    font-family: Raleway;
+    font-family: var(--Raleway);
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
