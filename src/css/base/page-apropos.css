@@ -13,7 +13,7 @@
 .hero__text {
     color: var(--blanc, #FFF);
     font-family: var(--Raleway);
-    font-size: 15px;
+    font-size: 0.938rem;
     font-style: normal;
     font-weight: 400;
     line-height: 132%;

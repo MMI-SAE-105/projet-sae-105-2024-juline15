@@ -16,7 +16,7 @@
     color: var(--blanc, #FFF);
     text-align: right;
     font-family: var(--Raleway);
-    font-size: 11px;
+    font-size: 0.688rem;
     font-style: italic;
     font-weight: 200;
     line-height: 132%;
@@ -36,7 +36,7 @@
 .hero__info {
     color: var(--blanc, #FFF);
     font-family: var(--Raleway);
-    font-size: 15px;
+    font-size: 0.938rem;
     font-style: normal;
     font-weight: 400;
     line-height: 132%;
@@ -47,7 +47,7 @@
 .hero__text {
     color: var(--blanc, #FFF);
     font-family: var(--Raleway);
-    font-size: 22px;
+    font-size: 1.375rem;
     font-style: normal;
     font-weight: 400;
     line-height: 132%;

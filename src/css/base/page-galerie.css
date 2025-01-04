@@ -36,7 +36,7 @@
 .film-gallery__details {
     color: var(--noir, #000);
     font-family: var(--Raleway);
-    font-size: 15px;
+    font-size: 0.938rem;
     font-style: normal;
     font-weight: 400;
     line-height: 132%;

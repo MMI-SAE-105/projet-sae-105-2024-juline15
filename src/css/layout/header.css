@@ -46,8 +46,8 @@
 .menu__link {
     color: var(--blanc, #FFF);
     text-decoration: none;
-    font-family: Raleway;
-    font-size: 20px;
+    font-family: var(--Raleway);
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 132%;
     letter-spacing: 1px;
