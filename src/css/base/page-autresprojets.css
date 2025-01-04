@@ -1,0 +1,24 @@
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.projects__list-button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.projects__list-button img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project__author {
+    font-size: 0.938rem;
+    color: var(--blanc, #FFF);
+    margin: 0;
+}

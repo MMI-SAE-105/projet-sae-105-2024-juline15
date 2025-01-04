@@ -14,6 +14,7 @@
 @import "/src/css/base/page-contact.css";
 @import "/src/css/base/page-galerie.css";
 @import "/src/css/base/page-frise.css";
+@import "/src/css/base/page-autresprojets.css";
 
 /* Layout */
 @import "/src/css/layout/header.css";
