@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VirtualSpark</title>
+    <link rel="icon" href="/assets/icones/icone-logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script defer src="/src/js/script.js"></script>
+    <link rel="stylesheet" href="/src/css/base/page-galerie.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="/en/index_en.html">
+                <img class="header__logo-img" src="/assets/icones/icone-logo.svg" alt="VirtualSpark Logo">
+            </a>
+        </div>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+        <button class="header__menu-langue" aria-label="change language">
+            <a href="/fr/galerie.html">
+                <img src="/assets/icones/icone-langue.svg" alt="language change icon">
+            </a>
+        </button>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/object.html">The object - virtual reality headsets</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/timeline.html">The timeline of objects</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/movie.html">The movie - Ready Player One</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/gallery.html">The movie gallery</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/book.html">The book - The Age of Em</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/music.html">The music - Virtual Self, Ghost Voices</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/director.html">The director - Steven Spielberg</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 class="hero__title">Movie gallery</h1>
+        <div class="hero__intro">
+            <h2 class="hero__text">
+                Discover a selection of 5 films on virtual reality in an interactive carousel. Click on the items to
+                find out more.
+            </h2>
+        </div>
+    </section>
+
+    <main class="main">
+        <section class="film-gallery">
+            <div class="film-gallery__carousel">
+                <div class="film-gallery__card">
+                    <img src="/assets/img/image-galerie-matrix.webp" alt="Matrix movie poster"
+                        class="film-gallery__image">
+                    <dialog id="lightbox"><img src="/assets/img/image-galerie-matrix.webp" alt="Matrix movie poster" />
+                    </dialog>
+                    <h2 class="film-gallery__film-title">MATRIX</h2>
+                    <p class="film-gallery__details">Duration: 2h16<br>Genre: Action/SF<br>Release date: 1999</p>
+                </div>
+                <div class="film-gallery__card">
+                    <img src="/assets/img/image-galerie-tron.webp" alt="Tron movie poster" class="film-gallery__image">
+                    <dialog id="lightbox"><img src="/assets/img/image-galerie-tron.webp" alt="Tron movie poster" />
+                    </dialog>
+                    <h2 class="film-gallery__film-title">TRON</h2>
+                    <p class="film-gallery__details">Duration: 1h36<br>Genre: Action/SF<br>Release date: 1982</p>
+                </div>
+                <div class="film-gallery__card">
+                    <img src="/assets/img/image-galerie-inception.webp" alt="Inception movie poster"
+                        class="film-gallery__image">
+                    <dialog id="lightbox"><img src="/assets/img/image-galerie-inception.webp"
+                            alt="Inception movie poster" /></dialog>
+                    <h2 class="film-gallery__film-title">INCEPTION</h2>
+                    <p class="film-gallery__details">Duration: 2h28<br>Genre: Action/SF<br>Release date: 2010</p>
+                </div>
+                <div class="film-gallery__card">
+                    <img src="/assets/img/image-galerie-sword_art.webp"
+                        alt="Sword Art Online: Ordinal Scale movie poster" class="film-gallery__image">
+                    <dialog id="lightbox"><img src="/assets/img/image-galerie-sword_art.webp"
+                            alt="Sword Art Online: Ordinal Scale movie poster" /></dialog>
+                    <h2 class="film-gallery__film-title">SWORD ART ONLINE</h2>
+                    <p class="film-gallery__details">Duration: 1h59<br>Genre: Action/Adventure<br>Release date: 2017</p>
+                </div>
+                <div class="film-gallery__card">
+                    <img src="/assets/img/image-galerie-13thfloor.webp" alt="The Thirteenth Floor movie poster"
+                        class="film-gallery__image">
+                    <dialog id="lightbox"><img src="/assets/img/image-galerie-13thfloor.webp"
+                            alt="Thirteenth Floor movie poster" /></dialog>
+                    <h2 class="film-gallery__film-title">THE THIRTEENTH FLOOR</h2>
+                    <p class="film-gallery__details">Duration: 1h40<br>Genre: SF/Thriller<br>Release date: 1999</p>
+                </div>
+            </div>
+            <div class="carousel__controls">
+                <button class="carousel__button carousel__button--prev" aria-label="Scroll left">
+                    <img src="/assets/icones/icon_arrowcarrousel.svg" alt="left arrow">
+                </button>
+                <button class="carousel__button carousel__button--next" aria-label="Scroll right">
+                    <img src="/assets/icones/icon_arrowcarrousel.svg" alt="right arrow">
+                </button>
+            </div>
+        </section>
+
+
+        <section class="article">
+            <h2 class="article__title-bold"><strong>The place of virtual reality headsets in each of the films
+                    :</strong></h2>
+            <h2 class="article__title">Matrix</h2>
+            <p class="article__text">
+                Virtual reality headsets are not explicitly present, but humans connect to the Matrix using cables
+                plugged directly into
+                their bodies. These connections enable total immersion in an ultra-realistic simulation that controls
+                human perceptions.
+                This process is reminiscent of the function of modern VR headsets, offering users an experience
+                indistinguishable from
+                reality. Matrix thus explores the implications of a world where the boundary between the real and the
+                virtual
+                disappears.
+            </p>
+            <div class="article__image">
+                <img class="article__image-img" src="/assets/img/image-galerie-matrix2.webp"
+                    alt="Excerpt from the Matrix movie">
+                <figcaption class="article__description"><em>Excerpt from the Matrix movie</em></figcaption>
+            </div>
+        </section>
+
+        <section class="article">
+            <h2 class="article__title">Tron</h2>
+            <p class="article__text">
+                Characters are transported into a digital world called the Grid. Although the films do not feature VR
+                headsets per se,
+                the protagonists' total immersion in this digital universe is similar to that provided by VR. The
+                characters live in
+                this world with different rules, creating an immersive and visually spectacular experience reminiscent
+                of the sensations
+                offered by a virtual reality headset, notably through its futuristic and luminous visual effects.
+            </p>
+            <div class="article__image">
+                <img class="article__image-img" src="/assets/img/image-galerie-tron2.webp"
+                    alt="Excerpt from the Tron movie">
+                <figcaption class="article__description"><em>Excerpt from the Tron movie</em></figcaption>
+            </div>
+        </section>
+
+        <section class="article">
+            <h2 class="article__title">Inception</h2>
+            <p class="article__text">
+                Immerses viewers in shared dreams, evoking the principle of virtual reality. Although there are no VR
+                headsets, the
+                characters connect to dream worlds using special technology. This immersion in
+                subconsciously-constructed realities
+                makes it possible to manipulate the perception of space and time, a concept very similar to the creation
+                of virtual
+                worlds.
+            </p>
+            <div class="article__image">
+                <img class="article__image-img" src="/assets/img/image-galerie-inception2.webp"
+                    alt="Excerpt from the Inception movie">
+                <figcaption class="article__description"><em>Excerpt from the Inception movie</em></figcaption>
+            </div>
+        </section>
+
+        <section class="article">
+            <h2 class="article__title">Sword Art Online : Ordinal Scale</h2>
+            <p class="article__text">
+                Augmented and virtual reality headsets are central to the plot. Characters use a device called “Augma”,
+                an augmented
+                reality headset that superimposes virtual elements on the real world. It provides a hybrid experience
+                between augmented
+                reality and virtual reality, offering players total immersion in a digital environment while remaining
+                aware of their
+                physical surroundings.
+            </p>
+            <div class="article__image">
+                <img class="article__image-img" src="/assets/img/image-galerie-sword_art2.webp"
+                    alt="Excerpt from the Sword Art Online : Ordinal Scale movie">
+                <figcaption class="article__description"><em>Excerpt from the Sword Art Online : Ordinal Scale
+                        movie</em>
+                </figcaption>
+            </div>
+        </section>
+
+        <section class="article">
+            <h2 class="article__title">The Thirteenth Floor</h2>
+            <p class="article__text">
+                The film explores virtual simulation through a technology that allows users to project their
+                consciousness into a
+                computer simulation. Characters enter replicas of the real world by controlling digital avatars, an
+                immersion similar to
+                that provided by virtual reality. The film questions the nature of reality and illusion, highlighting
+                how VR can blur
+                the boundaries between the real and the simulated.
+            </p>
+            <div class="article__image">
+                <img class="article__image-img" src="/assets/img/image-galerie-13thfloor2.webp"
+                    alt="Excerpt from the The Thirteenth Floor movie">
+                <figcaption class="article__description"><em>Excerpt from the The Thirteenth Floor movie</em>
+                </figcaption>
+            </div>
+        </section>
+
+        <div class="button">
+            <a class="hero__button" href="/fr/realisateur.html">
+                <img src="/assets/icones/icone-bouton-spielberg.svg" alt="Page sur Steven Spielberg">
+            </a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="/assets/icones/icone-logo.svg" alt="VirtualSpark Logo">
+        </div>
+        <div class="footer__title">
+            <p>VirtualSpark</p>
+        </div>
+        <div class="footer__credits">
+            <p>ADAM Juline, A1</p>
+            <p>LEGAL INFORMATIONS</p>
+            <p>
+                "Project realized in 2024 as part of an educational exercise at the
+                <a href="https://blogdummi.fr/" class="hero__link"><u>MMI department in Montbéliard</u></a>."
+            </p>
+        </div>
+        <nav class="footer__nav">
+            <a href="/en/contact_en.html" class="footer__link">CONTACT</a>
+            <a href="/en/glossary.html" class="footer__link">GLOSSARY</a>
+            <a href="/en/aboutme.html" class="footer__link">ABOUT ME</a>
+            <a href="/en/otherprojects.html" class="footer__link">OTHER PROJECTS SECTION</a>
+            <a href="mailto:juline.adam@edu.univ-fcomte.fr" class="footer__link">juline.adam@edu.univ-fcomte.fr</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
