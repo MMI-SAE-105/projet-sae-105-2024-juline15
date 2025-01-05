@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VirtualSpark</title>
+    <link rel="icon" href="/assets/icones/icone-logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script defer src="/src/js/script.js"></script>
+    <link rel="stylesheet" href="/src/css/base/page-contact.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="/en/index_en.html">
+                <img class="header__logo-img" src="/assets/icones/icone-logo.svg" alt="VirtualSpark Logo">
+            </a>
+        </div>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+        <button class="header__menu-langue" aria-label="changer de langue">
+            <a href="/fr/contact.html">
+                <img src="/assets/icones/icone-langue.svg" alt="icone de changement de langue">
+            </a>
+        </button>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/object.html">The object - virtual reality headsets</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/timeline.html">The timeline of objects</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/movie.html">The movie - Ready Player One</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/gallery.html">The movie gallery</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/book.html">The book - The Age of Em</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/music.html">The music - Virtual Self, Ghost Voices</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/director.html">The director - Steven Spielberg</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <h1 class="hero__title">Contact me</h1>
+        <p class="hero__description">
+            If you have any questions about the model, or would like to talk to me about certain points for improvement,
+            please
+            don't hesitate to contact me via the form below.
+        </p>
+
+        <section class="contact__section">
+            <form class="contact__form">
+                <div class="contact__form-group">
+                    <label for="nom" class="contact__form-label">Name</label>
+                    <input type="text" id="nom" name="nom" class="contact__form-input" placeholder="Write here...">
+                </div>
+                <div class="contact__form-group">
+                    <label for="prenom" class="contact__form-label">First name</label>
+                    <input type="text" id="prenom" name="prenom" class="contact__form-input"
+                        placeholder="Write here...">
+                </div>
+                <div class="contact__form-group">
+                    <label for="email" class="contact__form-label">Email</label>
+                    <input type="text" id="email" name="email" class="contact__form-input" placeholder="Write here...">
+                </div>
+                <div class="contact__form-group">
+                    <label for="message" class="contact__form-label">Message</label>
+                    <textarea id="message" name="message" class="contact__form-input" rows="5"
+                        placeholder="Write here...." required></textarea>
+                </div>
+            </form>
+        </section>
+
+        <div class="button_bis">
+            <img src="/assets/icones/icone-bouton-violet.svg" alt="Soumettre le formulaire">
+        </div>
+        <div class="button">
+            <a class="hero__button" href="/fr/apropos.html">
+                <img class="hero__button-btn" src="/assets/icones/icone-bouton-plussurmoi.svg"
+                    alt="En apprendre plus sur moi ">
+            </a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="/assets/icones/icone-logo.svg" alt="VirtualSpark Logo">
+        </div>
+        <div class="footer__title">
+            <p>VirtualSpark</p>
+        </div>
+        <div class="footer__credits">
+            <p>ADAM Juline, A1</p>
+            <p>LEGAL INFORMATIONS</p>
+            <p>
+                "Project realized in 2024 as part of an educational exercise at the
+                <a href="https://blogdummi.fr/" class="hero__link"><u>MMI department in Montbéliard</u></a>."
+            </p>
+        </div>
+        <nav class="footer__nav">
+            <a href="/en/contact_en.html" class="footer__link">CONTACT</a>
+            <a href="/en/glossary.html" class="footer__link">GLOSSARY</a>
+            <a href="/en/aboutme.html" class="footer__link">ABOUT ME</a>
+            <a href="/en/otherprojects.html" class="footer__link">OTHER PROJECTS SECTION</a>
+            <a href="mailto:juline.adam@edu.univ-fcomte.fr" class="footer__link">juline.adam@edu.univ-fcomte.fr</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
