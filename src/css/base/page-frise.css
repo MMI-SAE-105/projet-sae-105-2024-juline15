@@ -7,7 +7,7 @@
     height: 100%;
     background-size: contain;
     z-index: -1;
-    padding-top: 800px;
+    padding-top: 700px;
 }
 
 .frise__image {
@@ -22,10 +22,10 @@
 .article__left {
     display: flex;
     flex-direction: row;
-    /* L'image à gauche et le texte à droite */
     align-items: flex-start;
     width: 100%;
     z-index: 1;
+    margin-bottom: 95px;
 }
 
 .article__right-title,
@@ -50,11 +50,14 @@
     word-wrap: break-word;
 }
 
+.article__left-text {
+    margin-left: 15px;
+}
+
 .article__right-content,
 .article__left-content {
     display: flex;
     flex-direction: column;
-    /* Aligne le titre et le texte verticalement */
     align-items: flex-start;
     width: 100%;
     padding-left: 20px;
@@ -68,7 +71,14 @@
     object-fit: cover;
 }
 
-/* Conteneur qui organise le titre et le texte verticalement */
+.article__right-image-img {
+    margin-left: 8px;
+}
+
+.article__left-image-img {
+    margin-right: 15px;
+}
+
 .article__right-title-container,
 .article__left-title-container {
     display: flex;
@@ -76,10 +86,8 @@
     align-items: flex-start;
 }
 
-/* Changer la direction de flexbox pour .article__left */
 .article__left {
     flex-direction: row-reverse;
-    /* Inverse l'ordre des éléments à l'intérieur */
 }
 
 .article__left-content {
@@ -88,6 +96,16 @@
     align-items: flex-start;
     justify-content: flex-start;
     margin-right: 20px;
-    /* Ajoute un espace entre l'image et le texte */
     width: 100%;
+}
+
+.article__left-textbis {
+    color: var(--blanc, #FFF);
+    font-family: var(--Raleway);
+    font-size: 0.938rem;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: 0.75px;
+    word-wrap: break-word;
+    margin-top: -100px;
 }
