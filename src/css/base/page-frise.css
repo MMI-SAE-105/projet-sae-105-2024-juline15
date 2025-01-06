@@ -6,8 +6,8 @@
     width: 700px;
     height: 100%;
     background-size: contain;
-    z-index: 0;
-    padding-top: 900px;
+    z-index: -1;
+    padding-top: 800px;
 }
 
 .frise__image {
