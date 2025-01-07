@@ -42,6 +42,7 @@
     line-height: 1;
 }
 
+
 .custom-buttonbis {
     display: inline-flex;
     align-items: center;
@@ -85,4 +86,23 @@
 .custom-buttonbis__text {
     text-transform: uppercase;
     line-height: 1;
+}
+
+
+.custom-button2 {
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 8px;
+    background-color: #663399;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--Raleway);
+    font-weight: bold;
+    font-size: 11px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
