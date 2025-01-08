@@ -38,12 +38,24 @@ img {
     height: auto;
 }
 
+video {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+audio{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .hero {
     text-align: center;
     padding-top: 21px;
     padding-right: 20px;
     padding-left: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .hero__img {
@@ -107,7 +119,10 @@ img {
 }
 
 .main {
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
 }
 
 .intro {
